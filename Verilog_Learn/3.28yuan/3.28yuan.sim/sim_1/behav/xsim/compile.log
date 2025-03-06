@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Code/Verilog/3.28yuan/3.28yuan.srcs/sources_1/new/multiply.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiply
+ERROR: [VRFC 10-1412] syntax error near = [D:/Code/Verilog/3.28yuan/3.28yuan.srcs/sources_1/new/multiply.v:72]
+ERROR: [VRFC 10-2865] module 'multiply' ignored due to previous errors [D:/Code/Verilog/3.28yuan/3.28yuan.srcs/sources_1/new/multiply.v:8]
