@@ -1,0 +1,18 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Code/Verilog/final/pipeline_cpu_optimize.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sim_1/new/tb.v,1730035791,verilog,,,,tb,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/ip/data_ram/sim/data_ram.v,1730036089,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/ip/inst_rom/sim/inst_rom.v,,data_ram,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/ip/inst_rom/sim/inst_rom.v,1730036157,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/adder.v,,inst_rom,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/adder.v,1730035791,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/alu.v,,adder,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/alu.v,1733968369,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/decode.v,,alu,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/decode.v,1733301412,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/exe.v,,decode,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/exe.v,1733968369,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/fetch.v,,exe,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/fetch.v,1733302237,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/mem.v,,fetch,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/mem.v,1733301189,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/multiply.v,,mem,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/multiply.v,1730035791,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/pipeline_cpu.v,,multiply,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/pipeline_cpu.v,1733301189,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/regfile.v,,pipeline_cpu,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/regfile.v,1730035791,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/wb.v,,regfile,,,,,,,,
+D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/wb.v,1733301189,verilog,,D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sim_1/new/tb.v,,wb,,,,,,,,

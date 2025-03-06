@@ -1,0 +1,8 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 56c5582ab07c4a018a0a4a82344c3716 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 155 differs from formal bit length 156 for port 'EXE_MEM_bus' [D:/Code/Verilog/final/pipeline_cpu_optimize.srcs/sources_1/new/pipeline_cpu.v:271]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

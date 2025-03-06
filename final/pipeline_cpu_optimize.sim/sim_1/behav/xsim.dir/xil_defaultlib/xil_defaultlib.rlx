@@ -1,0 +1,18 @@
+0.6
+2017.1
+Apr 14 2017
+19:10:27
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.sim/sim_1/behav/glbl.v,1492045073,verilog,,,,glbl,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sim_1/new/tb.v,1699783492,verilog,,,,tb,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/ip/data_ram/sim/data_ram.v,1699783257,verilog,,,,data_ram,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/ip/inst_rom/sim/inst_rom.v,1699783450,verilog,,,,inst_rom,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/adder.v,1699782609,verilog,,,,adder,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/alu.v,1699782753,verilog,,,,alu,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/decode.v,1699782662,verilog,,,,decode,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/exe.v,1699782778,verilog,,,,exe,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/fetch.v,1699782735,verilog,,,,fetch,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/mem.v,1699782807,verilog,,,,mem,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/multiply.v,1699782694,verilog,,,,multiply,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/pipeline_cpu.v,1699782912,verilog,,,,pipeline_cpu,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/regfile.v,1699782868,verilog,,,,regfile,,,,,,,,
+D:/vivadocunchun/pipeline_cpu_optimize/pipeline_cpu_optimize.srcs/sources_1/new/wb.v,1699782838,verilog,,,,wb,,,,,,,,

@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/ip/data_ram/sim/data_ram.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/ip/inst_rom/sim/inst_rom.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/adder.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/alu.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/decode.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/exe.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/fetch.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/mem.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/multiply.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/pipeline_cpu.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/regfile.v" \
+"../../../../pipeline_cpu_optimize.srcs/sources_1/new/wb.v" \
+"../../../../pipeline_cpu_optimize.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
