@@ -1,0 +1,11 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto db70a65b584f4f93926c842557b36636 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'wea' [D:/Code/Verilog/7_multi_cycle_cpu/7_multi_cycle_cpu.srcs/sources_1/new/multi_cycle_cpu.v:308]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'dina' [D:/Code/Verilog/7_multi_cycle_cpu/7_multi_cycle_cpu.srcs/sources_1/new/multi_cycle_cpu.v:310]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'douta' [D:/Code/Verilog/7_multi_cycle_cpu/7_multi_cycle_cpu.srcs/sources_1/new/multi_cycle_cpu.v:311]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 7 for port 'addrb' [D:/Code/Verilog/7_multi_cycle_cpu/7_multi_cycle_cpu.srcs/sources_1/new/multi_cycle_cpu.v:316]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
