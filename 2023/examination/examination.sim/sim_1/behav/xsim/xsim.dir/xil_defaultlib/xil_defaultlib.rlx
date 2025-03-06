@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Code/Verilog/examination/examination.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Code/Verilog/examination/examination.srcs/sim_1/new/tb.v,1702558654,verilog,,,,tb,,,,,,,,
+D:/Code/Verilog/examination/examination.srcs/sources_1/new/counter10.v,1702475613,verilog,,D:/Code/Verilog/examination/examination.srcs/sources_1/new/counter24.v,,counter10,,,,,,,,
+D:/Code/Verilog/examination/examination.srcs/sources_1/new/counter24.v,1702544604,verilog,,D:/Code/Verilog/examination/examination.srcs/sources_1/new/counter6.v,,counter24,,,,,,,,
+D:/Code/Verilog/examination/examination.srcs/sources_1/new/counter6.v,1702476950,verilog,,D:/Code/Verilog/examination/examination.srcs/sources_1/new/counter60.v,,counter6,,,,,,,,
+D:/Code/Verilog/examination/examination.srcs/sources_1/new/counter60.v,1702559934,verilog,,D:/Code/Verilog/examination/examination.srcs/sources_1/new/digital_clk.v,,counter60,,,,,,,,
+D:/Code/Verilog/examination/examination.srcs/sources_1/new/digital_clk.v,1702545154,verilog,,D:/Code/Verilog/examination/examination.srcs/sim_1/new/tb.v,,digital_clk,,,,,,,,

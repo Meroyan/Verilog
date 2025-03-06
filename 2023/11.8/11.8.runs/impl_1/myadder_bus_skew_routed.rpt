@@ -1,0 +1,15 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Nov  8 20:51:16 2023
+| Host         : Ming_ running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file myadder_bus_skew_routed.rpt -pb myadder_bus_skew_routed.pb -rpx myadder_bus_skew_routed.rpx
+| Design       : myadder
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

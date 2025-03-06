@@ -1,0 +1,281 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov 15 19:46:05 2023
+# Process ID: 5888
+# Current directory: D:/Code/Verilog/11.15/11.15.runs/synth_1
+# Command line: vivado.exe -log Calculate.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Calculate.tcl
+# Log file: D:/Code/Verilog/11.15/11.15.runs/synth_1/Calculate.vds
+# Journal file: D:/Code/Verilog/11.15/11.15.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Calculate.tcl -notrace
+Command: synth_design -top Calculate -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23572 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 348.070 ; gain = 87.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Calculate' [D:/Code/Verilog/11.15/11.15.srcs/sources_1/new/Calculate.v:23]
+WARNING: [Synth 8-3848] Net sumab in module/entity Calculate does not have driver. [D:/Code/Verilog/11.15/11.15.srcs/sources_1/new/Calculate.v:24]
+WARNING: [Synth 8-3848] Net sumflag in module/entity Calculate does not have driver. [D:/Code/Verilog/11.15/11.15.srcs/sources_1/new/Calculate.v:25]
+WARNING: [Synth 8-3848] Net leftshiftA in module/entity Calculate does not have driver. [D:/Code/Verilog/11.15/11.15.srcs/sources_1/new/Calculate.v:26]
+WARNING: [Synth 8-3848] Net equalflag in module/entity Calculate does not have driver. [D:/Code/Verilog/11.15/11.15.srcs/sources_1/new/Calculate.v:28]
+WARNING: [Synth 8-3848] Net bitXorflag in module/entity Calculate does not have driver. [D:/Code/Verilog/11.15/11.15.srcs/sources_1/new/Calculate.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'Calculate' (1#1) [D:/Code/Verilog/11.15/11.15.srcs/sources_1/new/Calculate.v:23]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[7]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[6]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[5]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[4]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[3]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[2]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[1]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[0]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumflag
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[15]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[14]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[13]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[12]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[11]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[10]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[9]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[8]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[7]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[6]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[5]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[4]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[3]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[2]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[1]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[0]
+WARNING: [Synth 8-3331] design Calculate has unconnected port equalflag
+WARNING: [Synth 8-3331] design Calculate has unconnected port bitXorflag
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 404.078 ; gain = 143.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 404.078 ; gain = 143.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 404.078 ; gain = 143.484
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 404.078 ; gain = 143.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[7]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[6]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[5]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[4]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[3]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[2]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[1]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumab[0]
+WARNING: [Synth 8-3331] design Calculate has unconnected port sumflag
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[15]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[14]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[13]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[12]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[11]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[10]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[9]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[8]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[7]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[6]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[5]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[4]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[3]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[2]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[1]
+WARNING: [Synth 8-3331] design Calculate has unconnected port leftshiftA[0]
+WARNING: [Synth 8-3331] design Calculate has unconnected port equalflag
+WARNING: [Synth 8-3331] design Calculate has unconnected port bitXorflag
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     1|
+|2     |LUT4   |     8|
+|3     |IBUF   |    16|
+|4     |OBUF   |     1|
+|5     |OBUFT  |    27|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    53|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 59 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 576.676 ; gain = 316.082
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 687.184 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 59 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 687.184 ; gain = 426.590
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 687.184 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Code/Verilog/11.15/11.15.runs/synth_1/Calculate.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Calculate_utilization_synth.rpt -pb Calculate_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 15 19:46:15 2023...

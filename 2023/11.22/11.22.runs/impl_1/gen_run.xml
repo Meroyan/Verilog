@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbv676-2" LaunchTime="1700662754">
+  <File Type="BITSTR-BMM" Name="cseladd32_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="cseladd32_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="cseladd32_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="cseladd32_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="cseladd32.tcl"/>
+  <File Type="OPT-TIMING" Name="cseladd32_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="cseladd32_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="cseladd32_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="cseladd32_reports.tcl"/>
+  <File Type="OPT-DRC" Name="cseladd32_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="cseladd32.hwdef"/>
+  <File Type="PWROPT-DCP" Name="cseladd32_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="cseladd32_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="cseladd32_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="cseladd32_placed.dcp"/>
+  <File Type="PLACE-IO" Name="cseladd32_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="cseladd32_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="cseladd32_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="cseladd32_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="cseladd32_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="cseladd32_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="cseladd32_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="cseladd32.bgn"/>
+  <File Type="PLACE-TIMING" Name="cseladd32_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="cseladd32_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="cseladd32.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="cseladd32_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="cseladd32_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="cseladd32_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="cseladd32.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="cseladd32_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="cseladd32_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="cseladd32_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="cseladd32_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="cseladd32_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="cseladd32_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="cseladd32.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="cseladd32_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="cseladd32.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="cseladd32_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="cseladd32_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="cseladd32.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="cseladd32_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="cseladd32_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="cseladd32_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="cseladd32_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="cseladd32_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="cseladd32_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="cseladd32_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="cseladd32_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="cseladd32_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="cseladd32_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="cseladd32_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="cseladd32_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="cseladd32_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="cseladd32_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="cseladd32_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="cseladd32_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="cseladd32_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="cseladd32_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="cseladd32_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="cseladd32.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="cseladd32_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="cseladd32.rbt"/>
+  <File Type="BITSTR-NKY" Name="cseladd32.nky"/>
+  <File Type="BG-DRC" Name="cseladd32.drc"/>
+  <File Type="RDI-RDI" Name="cseladd32.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/cseladd32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AddOperate.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/add16.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/add32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cseladd32"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

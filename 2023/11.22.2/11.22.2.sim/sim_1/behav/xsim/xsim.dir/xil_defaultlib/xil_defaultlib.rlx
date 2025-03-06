@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Code/Verilog/11.22.2/11.22.2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Code/Verilog/11.22.2/11.22.2.srcs/sim_1/new/seladd32tb.v,1700663005,verilog,,,,cseladd32tb,,,,,,,,
+D:/Code/Verilog/11.22.2/11.22.2.srcs/sources_1/new/add16.v,1700663692,verilog,,D:/Code/Verilog/11.22.2/11.22.2.srcs/sources_1/new/seladd32.v,,add16,,,,,,,,
+D:/Code/Verilog/11.22.2/11.22.2.srcs/sources_1/new/seladd32.v,1700663759,verilog,,D:/Code/Verilog/11.22.2/11.22.2.srcs/sim_1/new/seladd32tb.v,,seladd32,,,,,,,,

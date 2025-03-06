@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../examination.srcs/sources_1/new/counter10.v" \
+"../../../../examination.srcs/sources_1/new/counter24.v" \
+"../../../../examination.srcs/sources_1/new/counter6.v" \
+"../../../../examination.srcs/sources_1/new/counter60.v" \
+"../../../../examination.srcs/sources_1/new/digital_clk.v" \
+"../../../../examination.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

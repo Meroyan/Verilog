@@ -1,0 +1,413 @@
+
+*** Running vivado
+    with args -log mult32.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult32.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source mult32.tcl -notrace
+Command: synth_design -top mult32 -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17808 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 348.023 ; gain = 86.512
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mult32' [D:/Code/Verilog/12.6/12.6.srcs/sources_1/new/mult32.v:23]
+WARNING: [Synth 8-451] negative shift count is treated as unsigned [D:/Code/Verilog/12.6/12.6.srcs/sources_1/new/mult32.v:36]
+WARNING: [Synth 8-324] index 32 out of range [D:/Code/Verilog/12.6/12.6.srcs/sources_1/new/mult32.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'mult32' (1#1) [D:/Code/Verilog/12.6/12.6.srcs/sources_1/new/mult32.v:23]
+WARNING: [Synth 8-3917] design mult32 has port c[63] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[62] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[61] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[60] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[59] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[58] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[57] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[56] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[55] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[54] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[53] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[52] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[51] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[50] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[49] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[48] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[47] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[46] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[45] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[44] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[43] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[42] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[41] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[40] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[39] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[38] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[37] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[36] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[35] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[34] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[33] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[32] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[31] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[30] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[29] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[28] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[27] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[26] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[25] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[24] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[23] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[22] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[21] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[20] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[19] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[18] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[17] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[16] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[15] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[14] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[13] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[12] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[11] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[10] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[9] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[8] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[7] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[6] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[5] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[4] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[3] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[2] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[1] driven by constant 0
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[31]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[30]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[29]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[28]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[27]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[26]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[25]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[24]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[23]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[22]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[21]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[20]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[19]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[18]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[17]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[16]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[15]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[14]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[13]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[12]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[11]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[10]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[9]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[8]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[7]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[6]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[5]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[4]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[3]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[2]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 403.133 ; gain = 141.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 403.133 ; gain = 141.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 403.133 ; gain = 141.621
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 403.133 ; gain = 141.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design mult32 has port c[63] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[62] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[61] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[60] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[59] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[58] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[57] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[56] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[55] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[54] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[53] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[52] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[51] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[50] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[49] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[48] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[47] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[46] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[45] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[44] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[43] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[42] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[41] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[40] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[39] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[38] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[37] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[36] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[35] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[34] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[33] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[32] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[31] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[30] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[29] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[28] driven by constant 0
+WARNING: [Synth 8-3917] design mult32 has port c[27] driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-3917' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[31]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[30]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[29]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[28]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[27]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[26]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[25]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[24]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[23]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[22]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[21]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[20]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[19]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[18]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[17]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[16]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[15]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[14]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[13]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[12]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[11]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[10]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[9]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[8]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[7]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[6]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[5]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[4]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[3]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[2]
+WARNING: [Synth 8-3331] design mult32 has unconnected port ina[1]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[31]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[30]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[29]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[28]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[27]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[26]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[25]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[24]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[23]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[22]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[21]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[20]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[19]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[18]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[17]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[16]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[15]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[14]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[13]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[12]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[11]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[10]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[9]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[8]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[7]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[6]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[5]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[4]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[3]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[2]
+WARNING: [Synth 8-3331] design mult32 has unconnected port inb[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.762 ; gain = 322.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.762 ; gain = 322.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |IBUF |     2|
+|3     |OBUF |    64|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    67|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 221 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 583.797 ; gain = 322.285
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 695.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+10 Infos, 195 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 695.129 ; gain = 433.617
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 695.129 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Code/Verilog/12.6/12.6.runs/synth_1/mult32.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mult32_utilization_synth.rpt -pb mult32_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  6 19:25:44 2023...

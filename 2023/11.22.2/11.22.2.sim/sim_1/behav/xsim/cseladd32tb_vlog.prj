@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../11.22.2.srcs/sources_1/new/add16.v" \
+"../../../../11.22.2.srcs/sources_1/new/seladd32.v" \
+"../../../../11.22.2.srcs/sim_1/new/seladd32tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

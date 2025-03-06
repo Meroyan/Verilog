@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1700048874">
+  <File Type="BITSTR-BMM" Name="Calculate_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Calculate_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Calculate_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Calculate_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Calculate.tcl"/>
+  <File Type="OPT-TIMING" Name="Calculate_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Calculate_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Calculate_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Calculate_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Calculate_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Calculate.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Calculate_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Calculate_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Calculate_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Calculate_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Calculate_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Calculate_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Calculate_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Calculate_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Calculate_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Calculate_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Calculate_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Calculate.bgn"/>
+  <File Type="PLACE-TIMING" Name="Calculate_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Calculate_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Calculate.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Calculate_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Calculate_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Calculate_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Calculate.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Calculate_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Calculate_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Calculate_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Calculate_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Calculate_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Calculate_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Calculate.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Calculate_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Calculate.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Calculate_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Calculate_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Calculate.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Calculate_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Calculate_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Calculate_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Calculate_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Calculate_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Calculate_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Calculate_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Calculate_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Calculate_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Calculate_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Calculate_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Calculate_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Calculate_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Calculate_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Calculate_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Calculate_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Calculate_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Calculate_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Calculate_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Calculate.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Calculate_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Calculate.rbt"/>
+  <File Type="BITSTR-NKY" Name="Calculate.nky"/>
+  <File Type="BG-DRC" Name="Calculate.drc"/>
+  <File Type="RDI-RDI" Name="Calculate.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Calculate.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Calculate"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
