@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1329866354068028621  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 3e4a498b49b745fa857f3c93a91b305e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot single_cycle_cpu_display_behav xil_defaultlib.single_cycle_cpu_display xil_defaultlib.glbl" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "E:\\Software\\Xilinx\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/single_cycle_cpu_display_behav/xsimk.exe\"   \"xsim.dir/single_cycle_cpu_display_behav/obj/xsim_0.win64.obj\" \"xsim.dir/single_cycle_cpu_display_behav/obj/xsim_1.win64.obj\" -L\"E:\\Software\\Xilinx\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

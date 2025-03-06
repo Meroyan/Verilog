@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new/tb.v,1717509421,verilog,,,,tb,,,,,,,,
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/adder.v,1717044071,verilog,,D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu.v,,adder,,,,,,,,
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu.v,1717565144,verilog,,D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/data_ram.v,,alu,,,,,,,,
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/data_ram.v,1717044023,verilog,,D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/inst_rom.v,,data_ram,,,,,,,,
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/inst_rom.v,1717510416,verilog,,D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/regfile.v,,inst_rom,,,,,,,,
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/regfile.v,1717044095,verilog,,D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/single_cycle_cpu.v,,regfile,,,,,,,,
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/single_cycle_cpu.v,1717563630,verilog,,D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sim_1/new/tb.v,,single_cycle_cpu,,,,,,,,
+D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/single_cycle_cpu_display.v,1717510119,verilog,,,,single_cycle_cpu_display,,,,,,,,

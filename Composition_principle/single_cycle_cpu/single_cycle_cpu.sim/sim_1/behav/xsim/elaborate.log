@@ -1,0 +1,23 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Software/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 3e4a498b49b745fa857f3c93a91b305e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3283] element index 22 into 'inst_rom' is out of bounds [D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/inst_rom.v:62]
+WARNING: [VRFC 10-3705] select index 22 into 'inst_rom' is out of bounds [D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/inst_rom.v:91]
+WARNING: [VRFC 10-3705] select index 14 into 'alu_control' is out of bounds [D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu.v:32]
+WARNING: [VRFC 10-3705] select index 13 into 'alu_control' is out of bounds [D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu.v:33]
+WARNING: [VRFC 10-3705] select index 12 into 'alu_control' is out of bounds [D:/Code/Verilog/single_cycle_cpu/single_cycle_cpu.srcs/sources_1/new/alu.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.single_cycle_cpu
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

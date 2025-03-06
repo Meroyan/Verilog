@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May  9 17:11:42 2024
+# Process ID: 30240
+# Current directory: D:/Code/Verilog/5.9alu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25260 D:\Code\Verilog\5.9alu\5.9alu.xpr
+# Log file: D:/Code/Verilog/5.9alu/vivado.log
+# Journal file: D:/Code/Verilog/5.9alu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Code/Verilog/5.9alu/5.9alu.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Software/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  9 17:12:12 2024...
