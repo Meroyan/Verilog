@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../8_pipeline_cpu.srcs/sources_1/ip/data_ram/sim/data_ram.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/ip/inst_rom/sim/inst_rom.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/adder.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/alu.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/decode.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/exe.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/fetch.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/mem.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/multiply.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/pipeline_cpu.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/regfile.v" \
+"../../../../8_pipeline_cpu.srcs/sources_1/new/wb.v" \
+"../../../../8_pipeline_cpu.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
